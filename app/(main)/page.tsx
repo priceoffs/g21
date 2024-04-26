@@ -3,10 +3,10 @@ import placeholder from "@/public/placeholder.png";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import School1 from "@/public/school-1.png"
-import School2 from "@/public/school-2.png"
-import Classroom from "@/public/classroom.jpg"
-import Vacancy from "@/public/vacancy.jpg"
+import School1 from "@/public/school-1.png";
+import School2 from "@/public/school-2.png";
+import Classroom from "@/public/classroom.jpg";
+import Vacancy from "@/public/vacancy.jpg";
 
 const MainPage = () => {
   return (

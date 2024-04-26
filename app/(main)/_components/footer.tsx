@@ -19,7 +19,10 @@ const Footer = () => {
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
             <Button variant="ghost" className="underline">
-              <Link href="https://www.facebook.com/groups/1482958818677560" className="flex items-center">
+              <Link
+                href="https://www.facebook.com/groups/1482958818677560"
+                className="flex items-center"
+              >
                 Facebook
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
