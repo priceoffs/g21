@@ -1,3 +1,6 @@
+import Image from "next/image";
+import ScructureImg from "@/public/structure.png"
+
 const BusinessPage = () => {
   return (
     <main>
@@ -78,6 +81,17 @@ const BusinessPage = () => {
           </tr>
         </tbody>
       </table>
+      <h2 className="mb-10 text-3xl font-bold mt-10">
+        Структура підприємства
+      </h2>
+        <Image
+          src={ScructureImg}
+          alt="Structure"
+          width={500}
+          height={500}
+          className="m-auto"
+          placeholder="blur"
+        />
     </main>
   );
 };
